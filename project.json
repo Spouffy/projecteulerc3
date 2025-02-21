@@ -8,20 +8,20 @@
   // Libraries to use for all targets.
   "dependencies": [ ],
   // Authors, optionally with email.
-  "authors": [ "Abdelmalek Bekkouche <malekpurpose@gmail.com" ],
+  "authors": [ "John Doe <john.doe@example.com>" ],
   // Version using semantic versioning.
-  "version": "none",
+  "version": "0.1.0",
   // Sources compiled for all targets.
-  "sources": [ "src/**" ],
+  "sources": [ "./src/**" ],
   // Test sources compiled for all targets.
-  "test-sources": [ "" ],
+  "test-sources": [ "test/**" ],
   // C sources if the project also compiles C sources
   // relative to the project file.
   // "c-sources": [ "csource/**" ],
   // Include directories for C sources relative to the project file.
   // "c-include-dirs": [ "csource/include" ],
   // Output location, relative to project file.
-  "output": "build/",
+  "output": "build",
   // Architecture and OS target.
   // You can use 'c3c --list-targets' to list all valid targets.
   // "target": "windows-x64",
